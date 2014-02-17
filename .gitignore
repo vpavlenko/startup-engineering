@@ -46,3 +46,6 @@ logs/*.log
 
 # Backups
 *.bak
+
+# Solutions
+solution
