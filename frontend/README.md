@@ -1,4 +1,4 @@
-Frontend
+Фронтенд
 ========
 
 **Глобальное задание на день**: сделать [Todo-list](http://ahamlett.com/Backbone.localStorage/examples/index.html) и выложить его в интернет
