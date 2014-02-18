@@ -1,9 +1,9 @@
 Frontend
 ========
 
-Глобальное задание на день: сделать [http://ahamlett.com/Backbone.localStorage/examples/index.html](Todo-list) и выложить его в интернет
+Глобальное задание на день: сделать [Todo-list](http://ahamlett.com/Backbone.localStorage/examples/index.html) и выложить его в интернет
 
-Для тех, кому скучно: сверстайте [https://github.com/vpavlenko/hh-school-frontend](вступительную в школу Хедхантер)
+Для тех, кому скучно: сверстайте [вступительную в школу Хедхантер](https://github.com/vpavlenko/hh-school-frontend)
 
 HTML
 ====
