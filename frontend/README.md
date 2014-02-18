@@ -94,7 +94,7 @@ Git
 ===========
 
 1. Как развиваться: htmlacademy, codecademy, ШРИ.
-2. JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. 
+2. JavaScript: Ajax-запросы, асинхронность, переменное число аргументов, замыкания, модули, класссы и наследование. 
 3. Экосистема модулей JavaScript: underscore, requireJS, MVC.
 4. CSS: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](http://getbootstrap.com/), Modernizr, caniuse.
 5. Дизайнеры, фотошоп, макет.
