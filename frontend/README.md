@@ -37,13 +37,25 @@ CSS-фреймворки: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](ht
 JavaScript
 ==========
 
-[Примеры](https://github.com/vpavlenko/js-todo-task)
-
 План
 ----
 
 1. JavaScript: типы данных, conrol flow, доступ к элементам по id и к содержимому, onclick
 2. jQuery: селекторы, изменение значений, навешивание обработчиков, генерация тегов
+
+Примеры
+-------
+
+1. [Чистый JavaScript для проверки данных в форме](http://jsfiddle.net/u56uW/4/)
+
+4. [Демо по событиям нажатий клавиш](http://javascript.info/tutorial/keyboard-events)
+
+7. [Пример на возможности jQuery](http://jsfiddle.net/J45tc/6/)
+
+2. Пример выбора поездов: [код](https://github.com/vpavlenko/js-todo-task/tree/master/rasp), [результат](http://vpavlenko.github.io/js-todo-task/rasp/)
+
+3. [Навешивание эвентов к выбранным элементом и к классу](http://jsfiddle.net/8YbM9/1/)
+
 
 Задание
 -------
@@ -61,6 +73,7 @@ Git
 ===
 
 [Git Online Tutorial](http://try.github.io/)
+
 [Understanding Git](http://web.mit.edu/nelhage/Public/git-slides-2009.pdf)
 
 Задание
