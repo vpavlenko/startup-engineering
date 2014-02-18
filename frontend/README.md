@@ -39,7 +39,7 @@ JavaScript
 ----
 
 1. JavaScript: типы данных, conrol flow, доступ к элементам по id и к содержимому, onclick
-2. jQuery: селекторы, изменение значений, навешивание обработчиков, генерация тегов
+2. jQuery: селекторы, навешивание обработчиков, изменение значений, генерация тегов, перемещение по DOM-дереву
 
 Примеры
 -------
@@ -48,7 +48,9 @@ JavaScript
 
 4. [Демо по событиям нажатий клавиш](http://javascript.info/tutorial/keyboard-events)
 
-7. [Пример на возможности jQuery](http://jsfiddle.net/J45tc/6/)
+7. [jQuery: селекторы, навешивание обработчиков, изменение значений](http://jsfiddle.net/J45tc/6/)
+8. [jQuery: генерация тегов](http://jsfiddle.net/Ta576/2/)
+9. [jQuery: перемещение по DOM-дереву](http://jsfiddle.net/5CyNu/3/)
 
 2. Пример выбора поездов: [код](https://github.com/vpavlenko/js-todo-task/tree/master/raspg), [результат](http://vpavlenko.github.io/js-todo-task/rasp/)
 
