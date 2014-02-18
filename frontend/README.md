@@ -3,18 +3,20 @@ Frontend
 
 Глобальное задание на день: сделать [Todo-list](http://ahamlett.com/Backbone.localStorage/examples/index.html) и выложить его в интернет
 
-Для тех, кому скучно: сверстайте [вступительную в школу Хедхантер](https://github.com/vpavlenko/hh-school-frontend)
+Для тех, кому скучно, или же как задание на будущее: сверстайте и запрогайте [вступительную в школу Хедхантер](https://github.com/vpavlenko/hh-school-frontend)
 
 HTML
 ====
 
-[Домашняя страничка Гвидо ван Россума](http://www.python.org/~guido/)
+[Домашняя страничка Гвидо ван Россума](http://www.python.org/~guido/) как пример HTML-кода десятилетней давности
+
+[Фидл с примером формы](http://jsfiddle.net/ZJcX2/1/)
 
 Задание
 -------
 
 1. Создайте у себя на компьютере файл about_me.html, вставьте в него своё имя, свою фотографию и ссылку на свою страничку в контакте.
-2. Списки, заголовки, жирный и курсивный текст: [htmlacademy](http://htmlacademy.ru/courses/38/run/16)
+2. Списки, заголовки, жирный и курсивный текст: [htmlacademy](http://htmlacademy.ru/courses/38/run/16) — жёлтое выделение можно сделать тегом `<mark>`, а можно и забить на него
 3. Таблицы: [htmlacademy](http://htmlacademy.ru/courses/39/run/9)
 4. Формы: [htmlacademy](http://htmlacademy.ru/courses/46/run/11)
 
@@ -23,7 +25,7 @@ CSS
 
 [Домашняя страничка Армина Ронахера](http://lucumr.pocoo.org/)
 
-[Презентация Вадима Пацева](http://vpavlenko.github.io/YWDS-CSS/)
+[Сокращенная версия презентации Вадима Пацева]() ([полная версия](http://vpavlenko.github.io/YWDS-CSS/))
 
 Задание
 -------
