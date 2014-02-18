@@ -16,6 +16,7 @@ HTML
 1. Создайте у себя на компьютере файл about_me.html, вставьте в него своё имя, свою фотографию и ссылку на свою страничку в контакте.
 2. Списки, заголовки, жирный и курсивный текст: [htmlacademy](http://htmlacademy.ru/courses/38/run/16)
 3. Таблицы: [htmlacademy](http://htmlacademy.ru/courses/39/run/9)
+3. Таблица: [htmlacademy](http://htmlacademy.ru/courses/39/run/9)
 4. Формы: [htmlacademy](http://htmlacademy.ru/courses/46/run/11)
 
 CSS
@@ -70,3 +71,5 @@ Git
 ===========
 
 Как развиваться. Продвинутые темы JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. Экосистема модулей: underscore, MVC. CSS: Modernizr, caniuse. Дизайнеры, фотошоп, макет.
+
+[Примеры](https://github.com/vpavlenko/js-todo-task)
