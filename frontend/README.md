@@ -25,8 +25,6 @@ CSS
 
 [Презентация Вадима Пацева](http://vpavlenko.github.io/YWDS-CSS/)
 
-CSS-фреймворки: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](http://getbootstrap.com/)
-
 Задание
 -------
 
@@ -52,7 +50,7 @@ JavaScript
 
 7. [Пример на возможности jQuery](http://jsfiddle.net/J45tc/6/)
 
-2. Пример выбора поездов: [код](https://github.com/vpavlenko/js-todo-task/tree/master/rasp), [результат](http://vpavlenko.github.io/js-todo-task/rasp/)
+2. Пример выбора поездов: [код](https://github.com/vpavlenko/js-todo-task/tree/master/raspg), [результат](http://vpavlenko.github.io/js-todo-task/rasp/)
 
 3. [Навешивание эвентов к выбранным элементом и к классу](http://jsfiddle.net/8YbM9/1/)
 
@@ -84,4 +82,4 @@ Git
 Послесловие
 ===========
 
-Как развиваться: htmlacademy, codecademy. JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. Экосистема модулей: underscore, MVC. CSS: Modernizr, caniuse. Дизайнеры, фотошоп, макет.
+Как развиваться: htmlacademy, codecademy. JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. Экосистема модулей: underscore, MVC. CSS: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](http://getbootstrap.com/), Modernizr, caniuse. Дизайнеры, фотошоп, макет.
