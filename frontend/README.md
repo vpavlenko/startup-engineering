@@ -25,12 +25,14 @@ CSS
 
 [Презентация Вадима Пацева](http://vpavlenko.github.io/YWDS-CSS/)
 
+CSS-фреймворки: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](http://getbootstrap.com/)
+
 Задание
 -------
 
 1. Размеры, цвет фона, цвет текста: [htmlacademy](http://htmlacademy.ru/courses/41/run/15)
 2. Блочная модель: [htmlacademy](http://htmlacademy.ru/courses/44/run/8)
-3. Сверстайте содержимое Todo-list'а у себя на компьютере
+3. Сверстайте содержимое Todo-list'а у себя на компьютере. Можете использовать CSS-фреймворк. Нужно получить такой вид, который вам хочется
 
 JavaScript
 ==========
@@ -69,6 +71,4 @@ Git
 Послесловие
 ===========
 
-Как развиваться. Продвинутые темы JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. Экосистема модулей: underscore, MVC. CSS: Modernizr, caniuse. Дизайнеры, фотошоп, макет.
-
-[Примеры](https://github.com/vpavlenko/js-todo-task)
+Как развиваться: htmlacademy, codecademy. JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. Экосистема модулей: underscore, MVC. CSS: Modernizr, caniuse. Дизайнеры, фотошоп, макет.
