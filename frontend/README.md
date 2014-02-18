@@ -1,7 +1,7 @@
 Frontend
 ========
 
-Глобальное задание на день: сделать [Todo-list](http://ahamlett.com/Backbone.localStorage/examples/index.html) и выложить его в интернет
+*Глобальное задание на день*: сделать [Todo-list](http://ahamlett.com/Backbone.localStorage/examples/index.html) и выложить его в интернет
 
 Для тех, кому скучно, или же как задание на будущее: сверстайте и запрогайте [вступительную в школу Хедхантер](https://github.com/vpavlenko/hh-school-frontend)
 
@@ -25,14 +25,14 @@ CSS
 
 [Домашняя страничка Армина Ронахера](http://lucumr.pocoo.org/)
 
-[Сокращенная версия презентации Вадима Пацева]() ([полная версия](http://vpavlenko.github.io/YWDS-CSS/))
+[Сокращенная версия презентации Вадима Пацева]() ([а тут полная версия](http://vpavlenko.github.io/YWDS-CSS/))
 
 Задание
 -------
 
 1. Размеры, цвет фона, цвет текста: [htmlacademy](http://htmlacademy.ru/courses/41/run/15)
 2. Блочная модель: [htmlacademy](http://htmlacademy.ru/courses/44/run/8)
-3. Сверстайте содержимое Todo-list'а у себя на компьютере. Можете использовать CSS-фреймворк. Нужно получить такой вид, который вам хочется
+3. Сверстайте содержимое [Todo-list](http://ahamlett.com/Backbone.localStorage/examples/index.html)'а у себя на компьютере.
 
 JavaScript
 ==========
@@ -51,11 +51,11 @@ JavaScript
 
 4. [Демо по событиям нажатий клавиш](http://javascript.info/tutorial/keyboard-events)
 
-7. [jQuery: селекторы, навешивание обработчиков, изменение значений](http://jsfiddle.net/J45tc/6/)
+7. [jQuery: селекторы, навешивание обработчиков, изменение значений](http://jsfiddle.net/J45tc/10/)
 8. [jQuery: генерация тегов](http://jsfiddle.net/Ta576/2/)
 9. [jQuery: перемещение по DOM-дереву](http://jsfiddle.net/5CyNu/3/)
 
-2. Пример выбора поездов: [код](https://github.com/vpavlenko/js-todo-task/tree/master/raspg), [результат](http://vpavlenko.github.io/js-todo-task/rasp/)
+2. Пример выбора поездов: [код](https://github.com/vpavlenko/js-todo-task/tree/master/rasp), [результат](http://vpavlenko.github.io/js-todo-task/rasp/)
 
 3. [Навешивание эвентов к выбранным элементом и к классу](http://jsfiddle.net/8YbM9/1/)
 
@@ -63,7 +63,7 @@ JavaScript
 Задание
 -------
 
-Сделайте приложение "Список дел" (todo list). [Демка](http://ahamlett.com/Backbone.localStorage/examples/index.html)
+Что реализовать в [Todo-list](http://ahamlett.com/Backbone.localStorage/examples/index.html)'е:
 
 1. Есть пустой список заданий (список строк), можно добавлять новые строчки. Дело добавляется по нажатию Энтера в поле ввода или по нажатию кнопки "Add".
 2. Дело можно пометить сделанным. Ещё дело можно удалить из списка.
@@ -78,19 +78,10 @@ JavaScript
 Задание
 -------
 
-Выложите Todo-list на [Hostinger](http://www.hostinger.ru/)
+1. Выложите Todo-list на [Hostinger](http://www.hostinger.ru/)
 
-Git
-===
+2. Выложите Todo-list в интернет через GitHub Pages
 
-[Git Online Tutorial](http://try.github.io/)
-
-[Understanding Git](http://web.mit.edu/nelhage/Public/git-slides-2009.pdf)
-
-Задание
--------
-
-Выложите Todo-list в интернет через GitHub Pages.
 
 Послесловие
 ===========
@@ -100,3 +91,8 @@ Git
 3. Экосистема модулей JavaScript: underscore, requireJS, MVC.
 4. CSS: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](http://getbootstrap.com/), Modernizr, caniuse.
 5. Дизайнеры, фотошоп, макет.
+
+Литература
+==========
+
+[Understanding Git](http://web.mit.edu/nelhage/Public/git-slides-2009.pdf)
