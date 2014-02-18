@@ -67,6 +67,14 @@ JavaScript
 5. Все дела автоматически сохраняются в LocalStorage. При перезагрузке страницы все дела достаются из LocalStorage.
 6. Прикручен CSS-фреймворк, и всё выглядит более-менее аккуратно. Или всё очень элегантно свёрстано без фреймворка.
 
+Хостинг
+=======
+
+Задание
+-------
+
+Выложите Todo-list на [Hostinger](http://www.hostinger.ru/)
+
 Git
 ===
 
@@ -77,9 +85,9 @@ Git
 Задание
 -------
 
-Выложите Todo-list в интернет через GitHub Pages. Затем выложите Todo-list на [Hostinger](http://www.hostinger.ru/)
+Выложите Todo-list в интернет через GitHub Pages.
 
 Послесловие
 ===========
 
-Как развиваться: htmlacademy, codecademy. JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. Экосистема модулей: underscore, MVC. CSS: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](http://getbootstrap.com/), Modernizr, caniuse. Дизайнеры, фотошоп, макет.
+Как развиваться: htmlacademy, codecademy, ШРИ. JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. Экосистема модулей: underscore, MVC. CSS: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](http://getbootstrap.com/), Modernizr, caniuse. Дизайнеры, фотошоп, макет.
