@@ -39,12 +39,13 @@ JavaScript
 ----
 
 1. JavaScript: типы данных, conrol flow, доступ к элементам по id и к содержимому, onclick
+2. DOMContentReady
 2. jQuery: селекторы, навешивание обработчиков, изменение значений, генерация тегов, перемещение по DOM-дереву
 
 Примеры
 -------
 
-1. [Чистый JavaScript для проверки данных в форме](http://jsfiddle.net/u56uW/4/)
+1. [Чистый JavaScript для проверки данных в форме](http://jsfiddle.net/u56uW/6/)
 
 4. [Демо по событиям нажатий клавиш](http://javascript.info/tutorial/keyboard-events)
 
@@ -92,4 +93,8 @@ Git
 Послесловие
 ===========
 
-Как развиваться: htmlacademy, codecademy, ШРИ. JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. Экосистема модулей: underscore, MVC. CSS: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](http://getbootstrap.com/), Modernizr, caniuse. Дизайнеры, фотошоп, макет.
+1. Как развиваться: htmlacademy, codecademy, ШРИ.
+2. JavaScript: Ajax-запросы, асинхронность, замыкания, модули, класссы и наследование. 
+3. Экосистема модулей JavaScript: underscore, requireJS, MVC.
+4. CSS: [Pure CSS](http://purecss.io/), [Twitter Bootstrap](http://getbootstrap.com/), Modernizr, caniuse.
+5. Дизайнеры, фотошоп, макет.
