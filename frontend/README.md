@@ -17,6 +17,8 @@ HTML
 
 [Фидл с примером формы](http://jsfiddle.net/ZJcX2/1/)
 
+[Фидл с примером таблицы](http://jsfiddle.net/b6R9R/)
+
 Задание
 -------
 
@@ -100,4 +102,5 @@ JavaScript
 Литература
 ==========
 
-[Understanding Git](http://web.mit.edu/nelhage/Public/git-slides-2009.pdf)
+1. [Dive into HTML5](http://diveintohtml5.info/)
+1. [Understanding Git](http://web.mit.edu/nelhage/Public/git-slides-2009.pdf)
