@@ -1,0 +1,961 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+<head>
+    <title>ШРИ: Курс по CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1274, user-scalable=no">
+    <link rel="stylesheet" href="themes/ribbon/styles/style.css">
+    <style>
+        #Cover h2 {
+            color: #FFF;
+            text-align: center;
+            font-size: 70px;
+        }
+
+        #FitToWidth h2,
+        #FitToHeight h2 {
+            color: #FFF;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="list">
+<header class="caption">
+    <h1>ШРИ: Курс по CSS</h1>
+    <p>Вадим Пацев</p>
+</header>
+<div class="slide shout" id="cover">
+    <div>
+        <section>
+            <header>
+                <h2>ШРИ: CSS</h2>
+            </header>
+            <p>Вадим Пацев</p>
+        </section>
+    </div>
+</div>
+<div class="slide" id="toc">
+    <div>
+        <section>
+            <header>
+                <h2>TOC</h2>
+            </header>
+            <ol>
+                <li>Cелекторы. Псевдоклассы. Наследование.</li>
+                <li>Значения и единицы измерения. Шрифт. Свойства текста.</li>
+                <li>Основы модели визуального форматирования.</li>
+                <li>Свободное перемещение и позиционирование.</li>
+                <li>Layouts.</li>
+            </ol>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="slide6">
+    <div>
+        <section>
+            <header>
+                <h2>Лекция №1</h2>
+            </header>
+            <p>Cелекторы. Псевдоклассы. Наследование.</p>
+        </section>
+    </div>
+</div>
+
+<div class="slide  shout" id="selectors">
+    <div>
+        <section>
+            <header>
+                <h2>Селекторы</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="selectors-type">
+    <div>
+        <section>
+            <header>
+                <h2>Селекторы</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/9086378" target="_blank">Class, ID, специфичность</a></li>
+                <li><a href="http://dabblet.com/gist/9086407" target="_blank">Селекторы потомков</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide  shout" id="Pseudo-class">
+    <div>
+        <section>
+            <header>
+                <h2>Псевдоклассы</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="Pseudo-class1">
+    <div>
+        <section>
+            <header>
+                <h2>Псевдоклассы</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/9086422" target="_blank">:first-child, :last-child, :not, :even, :odd</a></li>
+                <li><a href="http://dabblet.com/gist/9086457" target="_blank">:link, :visited, :hover</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<div class="slide  shout" id="specific">
+    <div>
+        <section>
+            <header>
+                <h2>Наследование</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="specific1">
+    <div>
+        <section>
+            <header>
+                <h2>Наследование</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/9086591" target="_blank">Наследование</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="toc2">
+    <div>
+        <section>
+            <header>
+                <h2>TOC</h2>
+            </header>
+            <ol>
+                <li class="section-done">Cелекторы. Псевдоклассы. Специфичность и наследование.</li>
+                <li class="section-next">Значения и единицы измерения. Шрифт. Свойства текста.</li>
+                <li>Основы модели визуального форматирования. </li>
+                <li>Свободное перемещение и позиционирование.</li>
+                <li>Layouts. At-rules</li>
+                <li>Цвета и фон. Transition. Transform. Animation. </li>
+            </ol>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="cover2">
+    <div>
+        <section>
+            <header>
+                <h2>Лекция №2</h2>
+            </header>
+            <p>Значения и единицы измерения. Шрифт. Свойства текста.</p>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="values1">
+    <div>
+        <section>
+            <header>
+                <h2>Значения и&nbsp;единицы измерения</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="values2">
+    <div>
+        <section>
+            <header>
+                <h2>Значения и единицы измерения</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/9086632" target="_blank">Процентные значения</a></li>
+                <li><a href="http://dabblet.com/gist/9086660" target="_blank">Единицы измерения em/ex</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="font">
+    <div>
+        <section>
+            <header>
+                <h2>Шрифт</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="font2">
+    <div>
+        <section>
+            <header>
+                <h2>Шрифт</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4045016" target="_blank">Семейства шрифтов</a></li>
+                <li><a href="http://dabblet.com/gist/4045047" target="_blank">Насыщенность шрифта</a></li>
+                <li><a href="http://dabblet.com/gist/4045050" target="_blank">Размер шрифта</a></li>
+                <li><a href="http://dabblet.com/gist/4045053" target="_blank">Стили и варианты</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="font3x">
+    <div>
+        <section>
+            <header>
+                <h2>Шрифт</h2>
+            </header>
+           <code>font: bold italic small-caps 10em/.5em Helvetica, sans-serif;</code>
+        </section>
+    </div>
+</div>
+<div class="slide" id="font4">
+    <div>
+        <section>
+            <header>
+                <h2>Шрифт</h2>
+            </header>
+           <p><a href="http://dabblet.com/gist/4045087" target="_blank">Внешние шрифты</a></p>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="text1">
+    <div>
+        <section>
+            <header>
+                <h2>Свойства текста</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="text2">
+    <div>
+        <section>
+            <header>
+                <h2>Свойства текста</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4045106" target="_blank">Отступы</a></li>
+                <li><a href="http://dabblet.com/gist/4045135" target="_blank">Горизонтальное выравнивание</a></li>
+                <li><a href="http://dabblet.com/gist/4045161" target="_blank">Высота строки</a></li>
+                <li><a href="http://dabblet.com/gist/4045146" target="_blank">Вертикальное выравнивание</a></li>
+                <li><a href="http://dabblet.com/gist/4045167" target="_blank">Расстояние между буквами и словами</a></li>
+                <li><a href="http://dabblet.com/gist/4050107" target="_blank">Переносы</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="text3">
+    <div>
+        <section>
+            <header>
+                <h2>Свойства текста</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4050091" target="_blank">Преобразование текста</a></li>
+                <li><a href="http://dabblet.com/gist/4045170" target="_blank">Оформление текста</a></li>
+                <li><a href="http://dabblet.com/gist/4045176" target="_blank">Затенение текста</a></li>
+                <li><a href="http://dabblet.com/gist/4045179" target="_blank">Multi Column</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="toc3">
+    <div>
+        <section>
+            <header>
+                <h2>TOC</h2>
+            </header>
+            <ol>
+                <li class="section-done">Cелекторы. Псевдоклассы. Специфичность и наследование.</li>
+                <li class="section-done">Значения и единицы измерения. Шрифт. Свойства текста.</li>
+                <li class="section-next">Основы модели визуального форматирования.</li>
+                <li>Свободное перемещение и позиционирование.</li>
+                <li>Layouts. At-rules</li>
+                <li>Цвета и фон. Transition. Transform. Animation.</li>
+            </ol>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="cover3">
+    <div>
+        <section>
+            <header>
+                <h2>Лекция №3</h2>
+            </header>
+            <p>Основы модели визуального форматирования</p>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing0001">
+    <div>
+        <section>
+            <header>
+                <h2>Основы модели визуального форматирования</h2>
+            </header>
+            <pre>
+                <code>}</code>
+                    <code>  width: auto;</code>
+                    <code>  height: auto;</code>
+                    <code>  margin: 0;</code>
+                    <code>  padding: 0;</code>
+                    <code>  border: 0;</code>
+                <code>}</code>
+            </pre>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing01">
+    <div>
+        <section>
+            <header>
+                <h2>Основы модели визуального форматирования</h2>
+            </header>
+            <ul>
+                <li>Viewport</li>
+                <li>Containing block</li>
+                <li>Formatting contexts
+                    <ul>
+                        <li>Block</li>
+                        <li>Inline</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing02">
+    <div>
+        <section>
+            <header>
+                <h2>Основы модели визуального форматирования</h2>
+            </header>
+            <ul>
+                <li>Positioning schemes
+                    <ul>
+                        <li>Normal flow, relative positioning</li>
+                        <li>Floats</li>
+                        <li>Absolute positioning</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="boxing001">
+    <div>
+        <section>
+            <header>
+                <h2>Containing block</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing002">
+    <div>
+        <section>
+            <header>
+                <h2>Containing block</h2>
+            </header>
+            <ul>
+                <li>root (HTML) ->  Viewport</li>
+                <li>position: relative/static —>  nearest block ancestor</li>
+                <li>position: absolute —>  nearest ancestor position: absolute/relative/fixed</li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing1">
+    <div>
+        <section>
+            <header>
+                <h2>Основы модели визуального форматирования</h2>
+            </header>
+            <img src="http://www.w3.org/TR/CSS2/images/boxdim.png" />
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing10">
+    <div>
+        <section>
+            <header>
+                <h2>Основы модели визуального форматирования</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4147684" target="_blank">Ширина и отступы</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="boxing11">
+    <div>
+        <section>
+            <header>
+                <h2>Блочные элементы</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing2">
+    <div>
+        <section>
+            <header>
+                <h2>Блочные элементы (Blocks)</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4147691" target="_blank">width, margin: auto</a></li>
+                <li><a href="http://dabblet.com/gist/4147696" target="_blank">negative margin-left</a></li>
+                <li><a href="http://dabblet.com/gist/4147703" target="_blank">width, replaced elements</a></li>
+                <li><a href="http://dabblet.com/gist/4147749" target="_blank">height, margin</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing201">
+    <div>
+        <section>
+            <header>
+                <h2>Блочные элементы (Blocks)</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4147760" target="_blank">height, margin: auto</a></li>
+                <li><a href="http://dabblet.com/gist/4147763" target="_blank">margin-top, margin-bottom</a></li>
+                <li><a href="http://dabblet.com/gist/4148516" target="_blank">negative margin-top</a></li>
+                <li><a href="http://dabblet.com/gist/4147880" target="_blank">margin-top: %</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing202">
+    <div>
+        <section>
+            <header>
+                <h2>Блочные элементы (Blocks)</h2>
+            </header>
+            <ul>
+                <li>min-width, max-width</li>
+                <li>min-height, max-height</li>
+                <li><a  target="_blank" href="http://www.w3.org/TR/CSS21/visudet.html#propdef-min-width">W3C</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="boxing21">
+    <div>
+        <section>
+            <header>
+                <h2>Строчные элементы</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing3">
+    <div>
+        <section>
+            <header>
+                <h2>Строчные элементы (Inlines)</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4147786" target="_blank">Ширина, высота и отступы</a></li>
+                <li><a href="http://dabblet.com/gist/4148076" target="_blank">Пробелы</a></li>
+                <li><a href="http://dabblet.com/gist/4147794" target="_blank">Line-height</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="boxing31">
+    <div>
+        <section>
+            <header>
+                <h2>Строчные блоки</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing4">
+    <div>
+        <section>
+            <header>
+                <h2>Строчные блоки (Inline Blocks)</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4147811" target="_blank">Ширина, высота и отступы</a></li>
+                <li><a href="http://dabblet.com/gist/4147819" target="_blank">replaced elements</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="boxing5">
+    <div>
+        <section>
+            <header>
+                <h2>Border</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="boxing51">
+    <div>
+        <section>
+            <header>
+                <h2>Border</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4148468" target="_blank">пример</a></li>
+                <li><a href="http://dabblet.com/gist/4148455" target="_blank">пример</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="toc4">
+    <div>
+        <section>
+            <header>
+                <h2>TOC</h2>
+            </header>
+            <ol>
+                <li class="section-done">Cелекторы. Псевдоклассы. Специфичность и наследование.</li>
+                <li class="section-done">Значения и единицы измерения. Шрифт. Свойства текста.</li>
+                <li class="section-done">Основы модели визуального форматирования.</li>
+                <li class="section-next">Свободное перемещение и позиционирование.</li>
+                <li>Layouts. At-rules</li>
+                <li>Цвета и фон. Transition. Transform. Animation.</li>
+            </ol>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="cover4">
+    <div>
+        <section>
+            <header>
+                <h2>Лекция №4</h2>
+            </header>
+            <p>Свободное перемещение и позиционирование</p>
+        </section>
+    </div>
+</div>
+<div class="slide" id="float">
+    <div>
+        <section>
+            <header>
+                <h2>Свободное перемещение и позиционирование</h2>
+            </header>
+            <ul>
+                <li>Positioning schemes
+                    <ul>
+                        <li>Normal flow, relative positioning</li>
+                        <li>Floats</li>
+                        <li>Absolute positioning</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="float1">
+    <div>
+        <section>
+            <header>
+                <h2>Float</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="float2">
+    <div>
+        <section>
+            <header>
+                <h2>Float</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4149263" target="_blank">Механика</a></li>
+                <li><a href="http://dabblet.com/gist/4149265" target="_blank">Поток</a></li>
+                <li><a href="http://dabblet.com/gist/4149274" target="_blank">Картинка и текст</a></li>
+                <li><a href="http://dabblet.com/gist/4149277" target="_blank">Картинка и много текста</a></li>
+                <li><a href="http://dabblet.com/gist/4149282" target="_blank">Отступы</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<div class="slide shout" id="pos1">
+    <div>
+        <section>
+            <header>
+                <h2>Position</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="pos2">
+    <div>
+        <section>
+            <header>
+                <h2>Position</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4149308" target="_blank">Механика</a></li>
+                <li><a href="http://dabblet.com/gist/4149313" target="_blank">Poa, Pof —> Смещение</a></li>
+                <li><a href="http://dabblet.com/gist/4149320" target="_blank">Poa, Pof —> Размеры</a></li>
+                <li><a href="http://dabblet.com/gist/4149326" target="_blank">Poa —> магия</a></li>
+                <li><a href="http://dabblet.com/gist/4149330" target="_blank">Попап</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="overflow">
+    <div>
+        <section>
+            <header>
+                <h2>Overflow</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="overflow1">
+    <div>
+        <section>
+            <header>
+                <h2>Overflow</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4149371" target="_blank">Механика</a></li>
+                <li><a href="http://dabblet.com/gist/4149381" target="_blank">Повседневные задачи</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<div class="slide shout" id="zindex">
+    <div>
+        <section>
+            <header>
+                <h2>Z-index</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="zindex1">
+    <div>
+        <section>
+            <header>
+                <h2>Z-index</h2>
+            </header>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/Stacking_without_z-index" target="_blank">Без z-index</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/Stacking_and_float" target="_blank">Float</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/Adding_z-index" target="_blank">Z-index</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/The_stacking_context" target="_blank">Контекст z-index</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/Stacking_context_example_1?" target="_blank">Пример 1</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/Stacking_context_example_2?" target="_blank">Пример 2</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/Stacking_context_example_3?" target="_blank">Пример 3</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="toc5">
+    <div>
+        <section>
+            <header>
+                <h2>TOC</h2>
+            </header>
+            <ol>
+                <li class="section-done">Cелекторы. Псевдоклассы. Специфичность и наследование.</li>
+                <li class="section-done">Значения и единицы измерения. Шрифт. Свойства текста.</li>
+                <li class="section-done">Основы модели визуального форматирования.</li>
+                <li class="section-done">Свободное перемещение и позиционирование.</li>
+                <li class="section-next">Layouts. At-rules</li>
+                <li>Цвета и фон. Transition. Transform. Animation.</li>
+            </ol>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="cover5">
+    <div>
+        <section>
+            <header>
+                <h2>Лекция №5</h2>
+            </header>
+            <p>Layouts. At-rules</p>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="layouts">
+    <div>
+        <section>
+            <header>
+                <h2>Лэйауты</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="layouts1">
+    <div>
+        <section>
+            <header>
+                <h2>Лэйауты</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4169725" target="_blank">Float</a></li>
+                <li><a href="http://dabblet.com/gist/4175726" target="_blank">Чикуенок</a></li>
+                <li><a href="http://dabblet.com/gist/4169729" target="_blank">Position: absolute 1</a></li>
+                <li><a href="http://dabblet.com/gist/4169736" target="_blank">Position: absolute 2</a></li>
+                <li><a href="http://dabblet.com/gist/4169723" target="_blank">Inline-block</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="layouts2">
+    <div>
+        <section>
+            <header>
+                <h2>Будущее<br/>Flexbox</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="layouts3">
+    <div>
+        <section>
+            <header>
+                <h2>Будущее — Flexbox</h2>
+            </header>
+            <ul>
+                <li>2009 -> 2011 -> 2012</li>
+                <li><a href="http://dabblet.com/gist/7606260" target="_blank">Механика</a></li>
+                <li><a href="http://caniuse.com/flexbox">Поддержка Flexbox в браузерах</a></li>
+                <li><a href="http://wiki.csswg.org/spec/flexbox-2009-2011-spec-property-mapping">Таблица соответствия F09 и F11</a></li>
+                <li><a href="http://zomigi.com/blog/flexbox-syntax-for-ie-10/">Таблица соответствия F09 и F11 для IE10</a></li>
+                <li><a href="http://bennettfeely.com/flexplorer/">CSS3 Flexplorer</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="at">
+    <div>
+        <section>
+            <header>
+                <h2>At-rules</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="at1">
+    <div>
+        <section>
+            <header>
+                <h2>At-rules</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4169780" target="_blank">Механика</a></li>
+                <li><a href="http://dabblet.com/gist/4169786" target="_blank">Adaptive design</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide" id="toc6">
+    <div>
+        <section>
+            <header>
+                <h2>TOC</h2>
+            </header>
+            <ol>
+                <li class="section-done">Cелекторы. Псевдоклассы. Специфичность и наследование.</li>
+                <li class="section-done">Значения и единицы измерения. Шрифт. Свойства текста.</li>
+                <li class="section-done">Основы модели визуального форматирования.</li>
+                <li class="section-done">Свободное перемещение и позиционирование.</li>
+                <li class="section-done">Layouts. At-rules</li>
+                <li class="section-next">Цвета и фон. Transition. Transform. Animation.</li>
+            </ol>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="cover6">
+    <div>
+        <section>
+            <header>
+                <h2>Лекция №6</h2>
+            </header>
+            <p>Цвета и фон. Transition. Transform. Animation.</p>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="cob">
+    <div>
+        <section>
+            <header>
+                <h2>Цвета и фон</h2>
+            </header>
+        </section>
+    </div>
+</div>
+
+<div class="slide" id="cob1">
+    <div>
+        <section>
+            <header>
+                <h2>Цвета и фон</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4175247" target="_blank">Цвета</a></li>
+                <li><a href="http://dabblet.com/gist/4175273" target="_blank">Color</a></li>
+                <li><a href="http://dabblet.com/gist/4175276" target="_blank">Background</a></li>
+                <li><a href="http://dabblet.com/gist/4175278" target="_blank">Background</a></li>
+                <li><a href="http://dabblet.com/gist/4175281" target="_blank">background-clip</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="cob2">
+    <div>
+        <section>
+            <header>
+                <h2>Градиенты</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="cob3">
+    <div>
+        <section>
+            <header>
+                <h2>Градиенты</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4175285" target="_blank">Градиенты — пример №1</a></li>
+                <li><a href="http://dabblet.com/gist/4175290" target="_blank">Градиенты — пример №2</a></li>
+                <li><a href="http://dabblet.com/gist/4175291" target="_blank">Градиенты — пример №3</a></li>
+                <li><a href="http://dabblet.com/gist/4175294" target="_blank">Градиенты — пример №4</a></li>
+
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="cob4">
+    <div>
+        <section>
+            <header>
+                <h2>Несколько фонов</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="cob5">
+    <div>
+        <section>
+            <header>
+                <h2>Несколько фонов</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4175323" target="_blank">Multiple — пример №1</a></li>
+                <li><a href="http://dabblet.com/gist/4175345" target="_blank">Multiple — пример №2</a></li>
+                <li><a href="http://dabblet.com/gist/4175350" target="_blank">Patterns</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="trans">
+    <div>
+        <section>
+            <header>
+                <h2>Transitions</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="trans1">
+    <div>
+        <section>
+            <header>
+                <h2>Transitions</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4175360" target="_blank">Transitions — механика</a></li>
+                <li><a href="http://dabblet.com/gist/4175363" target="_blank">Transitions — пример №1</a></li>
+                <li><a href="http://dabblet.com/gist/4175373" target="_blank">Transitions — easing</a></li>
+                <li><a href="http://dabblet.com/gist/4175378" target="_blank">Transitions — delay</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="transf">
+    <div>
+        <section>
+            <header>
+                <h2>Transforms</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="transf1">
+    <div>
+        <section>
+            <header>
+                <h2>Transforms</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4175383" target="_blank">Transforms — механика</a></li>
+                <li><a href="http://dabblet.com/gist/4175391" target="_blank">Transforms — origin</a></li>
+                <li><a href="http://dabblet.com/gist/4175402" target="_blank">Transforms — пример</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="animation">
+    <div>
+        <section>
+            <header>
+                <h2>Animation</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="animation1">
+    <div>
+        <section>
+            <header>
+                <h2>Animation</h2>
+            </header>
+            <ul>
+                <li><a href="http://dabblet.com/gist/4175409" target="_blank">Animation — механика</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="trans3d">
+    <div>
+        <section>
+            <header>
+                <h2>3D transforms</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<div class="slide" id="trans3d1">
+    <div>
+        <section>
+            <header>
+                <h2>3D transforms</h2>
+            </header>
+            <ul>
+                <li><a href="http://desandro.github.io/3dtransforms/examples/perspective-03.html" target="_blank">3D transforms — перспектива</a></li>
+                <li><a href="http://dabblet.com/gist/4175457" target="_blank">3D transforms — механика</a></li>
+                <li><a href="http://dabblet.com/gist/4175460" target="_blank">3D transforms — пример</a></li>
+                <li><a href="http://desandro.github.io/3dtransforms/examples/carousel-01.html" target="_blank">3D transforms — пример2</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<div class="slide shout" id="cover7">
+    <div>
+        <section>
+            <header>
+                <h2>Done</h2>
+            </header>
+        </section>
+    </div>
+</div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
