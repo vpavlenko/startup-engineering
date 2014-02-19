@@ -30,7 +30,7 @@ CSS
 
 [Домашняя страничка Армина Ронахера](http://lucumr.pocoo.org/)
 
-[Сокращенная версия презентации Вадима Пацева]() ([а тут полная версия](http://vpavlenko.github.io/YWDS-CSS/))
+[Сокращенная версия презентации Вадима Пацева](http://vpavlenko.github.io/startup-engineering/frontend/YWDS-CSS-shortened/) ([а тут полная версия](http://vpavlenko.github.io/YWDS-CSS/))
 
 Задание
 -------
