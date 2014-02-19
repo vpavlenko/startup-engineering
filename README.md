@@ -1,4 +1,7 @@
-startup-engineering
+Startup Engineering
 ===================
 
-3-day intensive course on git, frontend, backend with Python/Django and deployment (Spring 2014, in Russian)
+Шестидневный практический интенсив о стартапах, веб-разработке, интерфейсах и машинном обучении от Виктора Кантора и Виталия Павленко
+
+[Фронтенд](frontend)
+
