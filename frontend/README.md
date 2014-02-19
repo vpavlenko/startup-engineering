@@ -8,7 +8,7 @@
 Введение
 ========
 
-[Что такое веб-страница](http://jsfiddle.net/LBxWP/1/)
+Что такое веб-страница: [страница](http://vpavlenko.github.io/startup-engineering/frontend/intro/), [фидл](http://jsfiddle.net/LBxWP/1/)
 
 HTML
 ====
