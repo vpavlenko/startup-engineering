@@ -50,11 +50,12 @@ JavaScript
 1. JavaScript: типы данных, conrol flow, доступ к элементам по id и к содержимому, onclick
 2. [DOMContentReady](https://gist.github.com/vpavlenko/9092030)
 2. jQuery: селекторы, навешивание обработчиков, изменение значений, генерация тегов, перемещение по DOM-дереву
+4. Процесс загрузки страницы (вкладка Networks), событие submit формы и его предотвращение
 
 Примеры
 -------
 
-1. [Чистый JavaScript для проверки данных в форме](http://jsfiddle.net/u56uW/6/)
+1. Чистый JavaScript для проверки данных в форме: [click](http://jsfiddle.net/u56uW/6/), [submit](http://jsfiddle.net/u56uW/4/)
 4. [Демо по событиям нажатий клавиш](http://javascript.info/tutorial/keyboard-events)
 
 7. [jQuery: селекторы, навешивание обработчиков, изменение значений](http://jsfiddle.net/J45tc/10/)
@@ -103,3 +104,4 @@ JavaScript
 
 1. [Dive into HTML5](http://diveintohtml5.info/)
 1. [Understanding Git](http://web.mit.edu/nelhage/Public/git-slides-2009.pdf)
+3. John Resig, Bear Bibeault. Secrets of the JavaScript Ninja
