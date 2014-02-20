@@ -5,7 +5,7 @@ import sys
 from colorama import init, deinit, Fore, Back
 
 REGEXPS = {
-    '-e': '[\w\d]+@[\w\d]+',
+    '-e': '[\w\d.]+@[\w\d.]+',
     '-n': '-?[0-9]+',
 }
 

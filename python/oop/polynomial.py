@@ -2,15 +2,23 @@ class Polynomial:
     '''
     Class for single-variable polynomials
 
-    >>> str(Polynomial({1: 1}))
-    '1 * X ** 1'
+    >>> print(Polynomial({1: 1}))
+    1 * x ** 1
     >>> Polynomial({1: 1})
     Polynomial({1: 1})
     >>> print(Polynomial({1: 1}) + Polynomial({2: 2}))
-    2 * X ** 2 + 1 * X ** 1
-    >>> X = Polynomial({1: 1})
-    >>> print(X + Polynomial({1: 1}))
-    2 * X ** 1
+    2 * x ** 2 + 1 * x ** 1
+    >>> x = Polynomial({1: 1})
+    >>> print(x + Polynomial({1: 1}))
+    2 * x ** 1
+    >>> a = 3 * x ** 2 - 4 * x
+    >>> b = 5 * x ** 2 - 1
+    >>> print(a * b)
+    15 * x ** 4 - 20 * x ** 3 - 3 * x ** 2 + 4 * x 
+    >>> print(a)
+    3 * x ** 2 - 4 * x
+    >>> print(b)
+    b = 5 * x ** 2 - 1
     '''
     def __init__(self, coefs):
         self.d = {}
@@ -25,9 +33,8 @@ class Polynomial:
         return Polynomial(d)
 
     def __str__(self):
-        return ' + '.join([
-            '{0} * X ** {1}'.format(coef, power)
-            for power, coef in self.d.items()])
+        return ' + '.join(['{0} * x ** {1}'.format(coef, power)
+                           for power, coef in self.d.items()])
 
     def __add__(self, y):
         if not isinstance(y, Polynomial):
@@ -47,12 +54,12 @@ class Polynomial:
         return 'Polynomial({0})'.format(repr(self.d))
 
 
-# X = Polynomial({1: 1})
+x = Polynomial({1: 1})
 
-# p = 3 + X
-# q = X - 2
-# print(p.derivative())  # 2 * X + 2
-# # print(p + q)  # X ** 2 + X + 1
+# p = 3 + x
+# q = x - 2
+# print(p.derivative())  # 2 * x + 2
+# # print(p + q)  # x ** 2 + x + 1
 
 if __name__ == '__main__':
     import doctest
