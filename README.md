@@ -5,3 +5,5 @@ Startup Engineering
 
 [Фронтенд](frontend)
 
+[Питон](python)
+
