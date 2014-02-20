@@ -5,4 +5,4 @@ html = open('index.html').read()
 soup = BeautifulSoup(html)
 
 for tag in soup.find_all(class_='post_title'):
-	print(tag.get_text())
+    print(tag.get_text())
