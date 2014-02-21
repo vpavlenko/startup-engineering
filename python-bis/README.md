@@ -41,7 +41,7 @@ Intro: базовые конструкции и типы данных
 -------------------
 
 1. Залейте решение на [gist.github.com](https://gist.github.com/) или на [pastebin.com](http://pastebin.com/)
-2. Вставьте ссылку в нужную графу в [Гуглодок с решениями](https://docs.google.com/spreadsheet/ccc?key=0AtJr69JHs0W0dHBtaExsZDR3TkpjaHphbTcwYmpLX3c&usp=sharing)
+2. Вставьте ссылку в нужную графу в [Гуглодок с решениями](https://docs.google.com/spreadsheet/ccc?key=0AtJr69JHs0W0dHBtaExsZDR3TkpjaHphbTcwYmpLX3c&usp=sharing#gid=1)
 
 Зачем это нужно? Будем делать рефакторинг вашего кода.
 
