@@ -27,3 +27,8 @@ requests, BeautifulSoup, write to file, create folder
     Success
     Attempt to get http://www.urbandictionary.com/define.php?term=bored
     Success
+
+Задание
+-------
+
+Начиная со страницы http://www.siliconrus.com/, организуйте обход в глубину по ссылкам, скачивая по одной странице с одного домена, скачайте как минимум 100 страниц. Всё сохраните на диске.
