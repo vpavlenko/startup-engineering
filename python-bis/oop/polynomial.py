@@ -3,22 +3,31 @@ class Polynomial:
     Class for single-variable polynomials
 
     >>> print(Polynomial({1: 1}))
-    1 * x ** 1
+    x
     >>> Polynomial({1: 1})
     Polynomial({1: 1})
     >>> print(Polynomial({1: 1}) + Polynomial({2: 2}))
-    2 * x ** 2 + 1 * x ** 1
+    2x^2 + x
     >>> x = Polynomial({1: 1})
     >>> print(x + Polynomial({1: 1}))
-    2 * x ** 1
+    2x
     >>> a = 3 * x ** 2 - 4 * x
     >>> b = 5 * x ** 2 - 1
     >>> print(a * b)
-    15 * x ** 4 - 20 * x ** 3 - 3 * x ** 2 + 4 * x 
+    15x^4 - 20x^3 - 3x^2 + 4x 
     >>> print(a)
-    3 * x ** 2 - 4 * x
+    3x^2 - 4x
     >>> print(b)
-    b = 5 * x ** 2 - 1
+    5x^2 - 1
+    >>> b[0]
+    1
+    >>> b[1]
+    0
+    >>> b[2]
+    5
+    >>> c = 1 - x ** 2
+    >>> c(5)
+    -24
     '''
     def __init__(self, coefs):
         self.d = {}
@@ -45,10 +54,10 @@ class Polynomial:
             raise NotImplementedError()
 
     def __sub__(self, y):
-        return self.__add__(-y)
+        return self + -y
 
     def __radd__(self, y):
-        return self.__add__(y)
+        return self + y
 
     def __repr__(self):
         return 'Polynomial({0})'.format(repr(self.d))
@@ -56,10 +65,6 @@ class Polynomial:
 
 x = Polynomial({1: 1})
 
-# p = 3 + x
-# q = x - 2
-# print(p.derivative())  # 2 * x + 2
-# # print(p + q)  # x ** 2 + x + 1
 
 if __name__ == '__main__':
     import doctest
