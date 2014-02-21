@@ -68,11 +68,3 @@ print('ratio' in 'transfiguration')
 # сортировка
 houses.sort() # сортировка на месте
 sorted_letters = sorted(houses[0]) # новый список
-
-# словарь - соответствие из ключей в значения
-# это как список, только индексы могут быть не только числами
-dictionary = {}
-dictionary['half-blood'] = 'полукровка'
-dictionary['cauldron'] = 'котёл'
-dictionary['potion'] = 'зелье'
-print(dictionary['cauldron'])

@@ -12,7 +12,7 @@
 Установка для Убунты
 --------------------
 
-	sudo apt-get install python3
+    sudo apt-get install python3
     sudo apt-get install python3-setuptools
     sudo easy_install3 pip
 
@@ -32,16 +32,16 @@
 Intro: базовые конструкции и типы данных
 ----------------------------------------
 
-1. [Арифметика, списки, строки, множества, словари, if, for](python_examples.py)
-2. [Словари, срезы](python_examples_2.py)
-3. [min/max, функции, lambda](python_examples_3.py)
+1. [Арифметика, списки, строки, множества, словари, if, for](python_examples.py) ([pythontutor](http://gg.gg/se_tutor_1))
+2. [Словари, срезы](python_examples_2.py) ([pythontutor](http://gg.gg/se_tutor_2))
+3. [min/max, функции, lambda](python_examples_3.py) ([pythontutor](http://gg.gg/se_tutor_3_v2))
 3. [Файловый ввод-вывод](http://contest.mccme.ru/pylernu/courses/1534/lessons/file_io/)
 
 Как сдавать решения
 -------------------
 
 1. Залейте решение на [gist.github.com](https://gist.github.com/) или на [pastebin.com](http://pastebin.com/)
-2. Вставьте ссылку в нужную графу в [Гуглодок с решениями](https://docs.google.com/spreadsheet/ccc?key=0AtJr69JHs0W0dHBtaExsZDR3TkpjaHphbTcwYmpLX3c&usp=sharing)
+2. Вставьте ссылку в нужную графу в [Гуглодок с решениями](https://docs.google.com/spreadsheet/ccc?key=0AtJr69JHs0W0dHBtaExsZDR3TkpjaHphbTcwYmpLX3c&usp=sharing#gid=1)
 
 Зачем это нужно? Будем делать рефакторинг вашего кода.
 
@@ -51,7 +51,7 @@ Intro: базовые конструкции и типы данных
 Выполняйте те задачи, которые вам интересны
 
 1. Пользователь вводит строку. Посчитайте количество различных слов в ней.
-2. Пользователь вводит имя файла. Посчитайте, сколько раз в нём встречается каждое его слово.
+2. Пользователь вводит имя файла. Посчитайте, сколько раз в нём встречается каждое его слово. Сделайте это за линейное время.
 3. [Общеукрепляющее, задания 1-4](https://github.com/vpavlenko/python-for-ml-tasks)
 4. [Двоичные данные, задание 5](https://sites.google.com/site/vpavlenkoinf/home/teoria/kodirovki-i-dvoicnye-dannye-zadanie)
 5. [Регулярные выражения, задания 1 и 2](https://github.com/vpavlenko/regexp-task/)
@@ -65,7 +65,7 @@ Intro: базовые конструкции и типы данных
 Outro: темная магия
 -------------------
 
-[Менеджеры контекста, доктесты, функциональщина](http://vpavlenko.github.io/startup-engineering/python/dark_magic/)
+[Менеджеры контекста, доктесты, функциональщина](http://vpavlenko.github.io/startup-engineering/python-bis/dark_magic/)
 
 Литература
 ==========
