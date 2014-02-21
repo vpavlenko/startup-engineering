@@ -1,14 +1,9 @@
 ООП
-defaultdict/Counter !
-os: работа с файловой системой +
-парсинг опций 
-urllib2/requests +
-SimpleHTTPServer
-csv
-регулярные выражения +
-сериализация
-BeautifulSoup +
+defaultdict !
+парсинг опций !
+сериализация !
 вызов стороннего приложения !
+множественное присваивание !
 
 virtualenv
 Зачем нужно виртуальное окружение? Создание виртуального окружения, activate, freeze, pip install -r requirements.txt
