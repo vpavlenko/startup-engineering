@@ -36,6 +36,7 @@ Intro: базовые конструкции и типы данных
 2. [Словари, срезы](python_examples_2.py) ([pythontutor](http://gg.gg/se_tutor_2))
 3. [min/max, функции, lambda](python_examples_3.py) ([pythontutor](http://gg.gg/se_tutor_3_v2))
 3. [Файловый ввод-вывод](http://contest.mccme.ru/pylernu/courses/1534/lessons/file_io/)
+3. [Пример: текущая директория и директория скрипта](paths)
 
 Как сдавать решения
 -------------------
