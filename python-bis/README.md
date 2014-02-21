@@ -65,7 +65,7 @@ Intro: базовые конструкции и типы данных
 Outro: темная магия
 -------------------
 
-[Менеджеры контекста, доктесты, функциональщина](http://vpavlenko.github.io/startup-engineering/python/dark_magic/)
+[Менеджеры контекста, доктесты, функциональщина](http://vpavlenko.github.io/startup-engineering/python-bis/dark_magic/)
 
 Литература
 ==========
