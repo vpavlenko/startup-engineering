@@ -5,5 +5,7 @@ Startup Engineering
 
 [Фронтенд](frontend)
 
-[Питон](python)
+[Питон: подход 20 февраля](python)
+
+[Питон: подход 21 февраля](python-bis)
 
