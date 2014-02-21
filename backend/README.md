@@ -1,7 +1,9 @@
 Подготовка к занятию
 --------------------
 
-Зарегистрируйтесь на [aws.amazon.com](http://aws.amazon.com/). Возьмите [инструкцию](https://spark-public.s3.amazonaws.com/startup/lecture_slides/lecture2-interactive-start.pdf) с курса Startup Engineering на Курсере. По той же инструкции поставьте Cygwin, если у вас Виндоус. Вам нужен только продукт EC2, вам надо создать только один инстанс t1.micro (он бесплатен первый год). Советую ставить на него Ubuntu Server 13.10.
+Зарегистрируйтесь на [aws.amazon.com](http://aws.amazon.com/). В этом вам может помочь [инструкциа](https://spark-public.s3.amazonaws.com/startup/lecture_slides/lecture2-interactive-start.pdf) с курса Startup Engineering на Курсере. По той же инструкции поставьте Cygwin, если у вас Виндоус. 
+
+На Амазоне вам нужен только продукт EC2, вам надо создать только один инстанс t1.micro (он бесплатен первый год). Советую ставить на него Ubuntu Server 13.10.
 
 План
 ====
