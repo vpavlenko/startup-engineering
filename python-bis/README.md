@@ -12,7 +12,7 @@
 Установка для Убунты
 --------------------
 
-	sudo apt-get install python3
+    sudo apt-get install python3
     sudo apt-get install python3-setuptools
     sudo easy_install3 pip
 
@@ -34,7 +34,7 @@ Intro: базовые конструкции и типы данных
 
 1. [Арифметика, списки, строки, множества, словари, if, for](python_examples.py) ([pythontutor](http://gg.gg/se_tutor_1))
 2. [Словари, срезы](python_examples_2.py) ([pythontutor](http://gg.gg/se_tutor_2))
-3. [min/max, функции, lambda](python_examples_3.py) ([pythontutor](http://gg.gg/se_tutor_3))
+3. [min/max, функции, lambda](python_examples_3.py) ([pythontutor](http://gg.gg/se_tutor_3_v2))
 3. [Файловый ввод-вывод](http://contest.mccme.ru/pylernu/courses/1534/lessons/file_io/)
 
 Как сдавать решения
