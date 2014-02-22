@@ -1,34 +1,56 @@
 Регистрация аккаунта на Амазоне
 -------------------------------
 
-1. Заходим на http://aws.amazon.com/
+1. Зайдите на http://aws.amazon.com/, нажимайте Get Started for Free. Введите свои данные.
 
-Get Started for Free
+2. Откройте письмо на почте, из письма нажимаете ссылку Free Tier. Выбираете Amazon EC2 - Get Started For Free.
 
-Вводите данные
+3. Введите данные кредитной карты. Не бойтесь, с вас возьмут не больше доллара в первый год пользования, если у вас в каждый
+момент времени будет работать только один движок типа t1.micro.
 
-Идете на почту, из письма нажимаете ссылку Free Tier
+2. [Пройдите туториал по терминалу линукса](https://d396qusza40orc.cloudfront.net/startup/lecture_slides%2Flecture3-linux-ssjs-v2.pdf), если вы не профи.
 
-Выбираете Amazon EC2 - Get Started For Free
+Подъём дев-сервера
+------------------
 
-Введите данные кредитной карты. Не бойтесь, с вас возьмут не больше доллара (в первый год пользования).
+1. Зайдите в AWS Management Console, поднимите инстанс t1.micro, сохраните ключ от него (файл с расширением `.cer`) и приконнектитесь
+к нему по ssh:
+    
+    ssh -i ~/Downloads/privatekey.cer ubuntu@ec2-54-213-214-189.us-west-2.compute.amazonaws.com
 
-AWS Management Console
+2. Залейте Джанго-проект с вики-движком на битбакет. Создайте в настройках проекта Deployment key (ридонли-ключ для выкачивания вашего проекта
+на продакшн-сервер), выкачайте на Амазоне простой проект. Поставьте на Амазоне средства установки питона и Джангу:
 
-t1.micro
+    sudo apt-get install python3-setuptools
+    sudo easy_install3 pip 
+    sudo easy_install3 virtualenv
+    sudo pip install django
 
-linux: https://d396qusza40orc.cloudfront.net/startup/lecture_slides%2Flecture3-linux-ssjs-v2.pdf
+3. Стартуйте сервер разработчика на Амазоне:
 
+    python3 manage.py runserver
 
-connecting to your instance: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html
-download CLI: http://aws.amazon.com/developertools/351
+Подъём продакшн-сервера
+-----------------------
 
-$ ssh -i ~/Dropbox/intensive.cer ubuntu@ec2-54-213-214-189.us-west-2.compute.amazonaws.com
+Дальше мы будем настраивать боевую конфигурацию сервера. Джанго будет запущен в связке nginx + uwsgi + Django, в качестве базы поднимем mysql.
 
-ubuntu@ip-172-31-38-102:~/helloworld$ sudo apt-get install python3-setuptools
+1. Найдите на сайте nginx инструкции по его сборке, скачайте и соберите nginx на Амазоне.
 
-$ sudo easy_install3 pip 
+2. Поставьте uwsgi. Напишите конфиги nginx и uwsgi.
 
-$ sudo easy_install3 virtualenv
+3. Поставьте mysql, создайте базу.
 
-https://spark-public.s3.amazonaws.com/startup/lecture_slides/lecture2-interactive-start.pdf - как поставить амазр
+4. Заставьте всё это работать.
+
+Вопросы на семестр
+------------------
+
+0. Что такое logrotate?
+
+1. Что такое vagrant?
+
+2. Как и зачем деплоиться через deb-пакеты?
+
+3. Что такое elasticsearch, zabbix, nagios, что из этого используют админы, как это поднять и чем это лучше ручного грепа по логам?
+
