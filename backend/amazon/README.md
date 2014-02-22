@@ -16,19 +16,19 @@
 1. Зайдите в AWS Management Console, поднимите инстанс t1.micro, сохраните ключ от него (файл с расширением `.cer`) и приконнектитесь
 к нему по ssh:
     
-    ssh -i ~/Downloads/privatekey.cer ubuntu@ec2-54-213-214-189.us-west-2.compute.amazonaws.com
+        ssh -i ~/Downloads/privatekey.cer ubuntu@ec2-54-213-214-189.us-west-2.compute.amazonaws.com
 
 2. Залейте Джанго-проект с вики-движком на битбакет. Создайте в настройках проекта Deployment key (ридонли-ключ для выкачивания вашего проекта
 на продакшн-сервер), выкачайте на Амазоне простой проект. Поставьте на Амазоне средства установки питона и Джангу:
 
-    sudo apt-get install python3-setuptools
-    sudo easy_install3 pip 
-    sudo easy_install3 virtualenv
-    sudo pip install django
+        sudo apt-get install python3-setuptools
+        sudo easy_install3 pip 
+        sudo easy_install3 virtualenv
+        sudo pip install django
 
 3. Стартуйте сервер разработчика на Амазоне:
 
-    python3 manage.py runserver
+        python3 manage.py runserver
 
 Подъём продакшн-сервера
 -----------------------
