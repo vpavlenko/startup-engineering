@@ -1,0 +1,13 @@
+{% for article in articles %}
+<div class="article">
+<a href="{% url 'show' article.title %}">{{ article.title }}</a>
+</div>
+{% endfor %}
+
+<div>
+<h3>Create new</h3>
+<form action="{% url 'create' %}" method="get">
+    <input type="text" name="title" placeholder="New article title">
+    <input type="submit" value="Create">
+</form>
+</div>

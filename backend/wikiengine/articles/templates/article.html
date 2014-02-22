@@ -1,0 +1,17 @@
+<h2>{{ article.title }}</h2>
+
+{% if edit %}
+    <form action="{% url 'save' %}" method="get">
+        <input type="hidden" name="title" value="{{ article.title }}">
+        <textarea name="content">{{ article.content }}</textarea>
+        <input type="submit" value="Сохранить">
+    </form>
+{% else %}
+    <div>
+    <a href="{% url 'home' %}">[to top]</a>
+    <a href="{% url 'edit' article.title %}">[edit]</a>
+    </div>
+    <div>
+    {{ article.content }}
+    </div>
+{% endif %}
