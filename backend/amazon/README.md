@@ -37,9 +37,10 @@
 
 1. Найдите на сайте nginx инструкции по его сборке, скачайте и соберите nginx на Амазоне.
 
-2. Поставьте uwsgi. Напишите конфиги nginx и uwsgi.
+2. Поставьте uwsgi через пакетный менеджер Убунты. Напишите конфиги nginx и uwsgi. [Пример uwsgi-конфига](uwsgi_example.conf).
+    [Пример nginx-конфига](nginx_example.conf)
 
-3. Поставьте mysql, создайте базу.
+3. [Поставьте mysql, создайте базу.](http://developingable.com/install-mysql-with-django/)
 
 4. Заставьте всё это работать.
 
